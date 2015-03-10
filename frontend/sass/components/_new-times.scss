@@ -1,0 +1,12 @@
+
+.cols-container {
+    @include outer-container;
+}
+
+.cols-half {
+    @include span-columns(6);
+}
+
+.cols-full {
+    @include span-columns(12);
+}
